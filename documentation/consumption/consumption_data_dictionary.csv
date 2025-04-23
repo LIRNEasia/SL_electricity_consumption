@@ -1,0 +1,56 @@
+data_format,column_name,data_type,missing_values,description
+non_smart_meter,household_ID,object,0,Unique household identifier
+non_smart_meter,month,object,0,Year-Month format (YYYY-MM)
+non_smart_meter,consumption,object,590,Total consumed units in kilowatts (KW)
+smart_meter_6hour,household_ID,object,0,Unique household identifier
+smart_meter_6hour,BRANCH,object,0,Branch of the service provider
+smart_meter_6hour,DEPOT,object,0,
+smart_meter_6hour,substation_ID,object,0,transformer id
+smart_meter_6hour,SUB_TYPE,object,0,
+smart_meter_6hour,E_BILLING,bool,0,
+smart_meter_6hour,EXPORT,bool,0,Energy exporting back to the grid or not
+smart_meter_6hour,DATE,object,0,Date of the reading
+smart_meter_6hour,TIME,object,0,time of the reading
+smart_meter_6hour,TOTAL_IMPORT (kWh),object,3,Total Cumulative consumed energy units
+smart_meter_6hour,TOTAL_EXPORT (kWh),float64,3,Total Cumulative generated energy units
+smart_meter_6hour,TOTAL_IMPORT - PV1 (kWh),float64,0,Total consumed energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,TOTAL_EXPORT - PV1 (kWh),float64,1,Total generated energy units as at 1st of the month at 00:00 hrs
+smart_meter_6hour,TR1_TOTAL_IMPORT (kWh),float64,3,Cumulative consumed energy units for Day Time
+smart_meter_6hour,TR2_TOTAL_IMPORT (kWh),float64,3,Cumulative consumed energy units for Peak Time
+smart_meter_6hour,TR3_TOTAL_IMPORT (kWh),float64,2,Cumulative consumed energy units for off - Peak Time
+smart_meter_6hour,TR1_TOTAL_EXPORT (kWh),float64,5,Cumulative generated energy units for Day Time
+smart_meter_6hour,TR2_TOTAL_EXPORT (kWh),float64,1,Cumulative generated energy units for Peak Time
+smart_meter_6hour,TR3_TOTAL_EXPORT (kWh),float64,1,Cumulative generated energy units for off-Peak Time
+smart_meter_6hour,TR1_TOTAL_IMPORT - PV1 (kWh),float64,1,Day time consumed energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,TR2_TOTAL_IMPORT - PV1 (kWh),float64,1,Peak time consumed energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,TR3_TOTAL_IMPORT - PV1 (kWh),float64,2,Off-Peak time consumed energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,TR1_TOTAL_EXPORT - PV1 (kWh),float64,1,Day time generated energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,TR2_TOTAL_EXPORT - PV1 (kWh),float64,0,Peak time generated energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,TR3_TOTAL_EXPORT - PV1 (kWh),float64,0,Off-Peak time generated energy units as at 1st of the given month at 00:00 hrs
+smart_meter_6hour,PHASE_A_CURRENT (A),float64,2,
+smart_meter_6hour,PHASE_A_VOLTAGE (V),float64,2,
+smart_meter_6hour,FREQUENCY (Hz),object,3,
+smart_meter_6hour,PHASE_B_CURRENT (A),float64,986572,
+smart_meter_6hour,PHASE_B_VOLTAGE (V),float64,986574,
+smart_meter_6hour,PHASE_C_CURRENT (A),float64,986572,
+smart_meter_6hour,PHASE_C_VOLTAGE (V),float64,986573,
+smart_meter_15min,household_ID,object,0,Unique household identifier
+smart_meter_15min,timestamp,float64,0,
+smart_meter_15min,date,object,0,Date of the reading
+smart_meter_15min,time,object,0,time of the reading
+smart_meter_15min,obis,object,0,
+smart_meter_15min,importkwh(kwh),float64,0,Total Cumulative consumed energy units
+smart_meter_15min,exportkwh(kwh),float64,0,Total Cumulative generated energy units
+smart_meter_15min,importkvarh(kvarh),float64,8354855,
+smart_meter_15min,exportkvarh(kvarh),float64,8354855,
+smart_meter_15min,powerfactor,float64,386387,
+smart_meter_15min,avgcurrent(v),float64,1307988,
+smart_meter_15min,avgexportkw(kw),float64,58262,
+smart_meter_15min,avgimportkw(kw),float64,58262,
+smart_meter_15min,avgvoltage(v),float64,1307988,
+smart_meter_15min,phaseainstcurrent(a),float64,8127767,
+smart_meter_15min,phaseainstvoltage(v),float64,8127767,
+smart_meter_15min,phasebinstcurrent(a),float64,8354855,
+smart_meter_15min,phasebinstvoltage(v),float64,8354855,
+smart_meter_15min,phasecinstcurrent(a),float64,8354855,
+smart_meter_15min,phasecinstvoltage(v),float64,8354855,

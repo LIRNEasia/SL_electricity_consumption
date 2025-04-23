@@ -1,4 +1,4 @@
-# README: Residential Electricity Consumption: Dataset combining Multi-round Longitudinal Surveys and Energy Provider Data
+# Residential Electricity Consumption: Dataset combining Multi-round Longitudinal Surveys and Energy Provider Data
 
 ## Overview
 

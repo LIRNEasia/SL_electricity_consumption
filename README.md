@@ -1,8 +1,22 @@
-# Residential Electricity Consumption: Dataset combining Multi-round Longitudinal Surveys and Energy Provider Data
+## Ongoing and Completed Analysis of Sri Lankan Residential Electricity Consumption Using Multi-Round Longitudinal Surveys and Energy Provider Data
 
 ## Overview
 
-This dataset contains household electricity consumption data, and survey responses collected from households in multiple Sri Lankan cities, combining 20 months of smart-meter and non-smart-meter electricity consumption records with three rounds of longitudinal surveys conducted with 4000 households. The dataset captures household living conditions, appliance usage, and behavioral changes over time, offering an intersection of granular energy consumption and consumer-driven factors.
+This dataset contains household electricity consumption data, and survey responses collected from households in multiple Sri Lankan cities, combining 20 months of smart-meter and non-smart-meter electricity consumption records with three rounds of longitudinal surveys conducted with 4000 households. The dataset captures household living conditions, appliance usage, and behavioral changes over time, offering an intersection of granular energy consumption and consumer-driven factors. Using this repository you can get a good understanding of how the data can be processed especially smart meter data that requires carefull processing before being utilized, how variables and features being used for priliminary analysis, and few examples of machine learning and deep-learning applications.
+
+You can access the dataset through:
+
+1. IEEE-dataport: https://dx.doi.org/10.21227/n1dk-q860
+2. Zenodo: https://zenodo.org/records/15023048
+3. Kaggle: https://www.kaggle.com/datasets/lirneasia/sri-lankan-residential-electricity-consumption
+
+
+<p align="center">
+  <img src="output_graphs/dataset_summary.png" alt="Dataset_summary" width="600"/>
+  <br>
+  <em>Summary of the Dataset and overview of the data collection process</em>
+</p>
+
 
 The dataset is divided into two main parts:
 
